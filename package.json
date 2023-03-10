@@ -1,0 +1,35 @@
+{
+  "name": "bpmn-metrics",
+  "version": "1.0.0",
+  "description": "A nodejs library to calculate metrics of BPMN diagrams",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeFkd/bpmn-metrics.git"
+  },
+  "keywords": [
+    "bpmn",
+    "metrics",
+    "bpmn-js"
+  ],
+  "author": "George Fakidis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeorgeFkd/bpmn-metrics/issues"
+  },
+  "homepage": "https://github.com/GeorgeFkd/bpmn-metrics#readme",
+  "dependencies": {
+    "@types/dom-parser": "^0.1.1",
+    "@types/jest": "^29.4.0",
+    "@xmldom/xmldom": "^0.8.6",
+    "dom-parser": "^0.1.6",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "xpath": "^0.0.32"
+  },
+  "type": "module"
+}
