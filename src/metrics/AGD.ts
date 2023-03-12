@@ -1,7 +1,7 @@
-import { CalculateMetricFn, getGatewaysInDiagram } from "../utils";
-import TNG from "./TNG";
+import { CalculateMetricFn, getGatewaysInDiagram } from "../utils.js";
+import TNG from "./TNG.js";
 import xpath from "xpath";
-import Metric from "../Metric-Class";
+import Metric from "../Metric-Class.js";
 function AGD(xmlDoc: Document): number {
     // const xmlElementsCount = countStructuralElements(xmlDoc);
     // const allTypesOfGateways = new Set(

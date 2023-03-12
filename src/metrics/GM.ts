@@ -1,7 +1,7 @@
-import { BPMN_ELEMENTS } from "../constants";
-import { CalculateMetricFn, getGatewaysInDiagram } from "../utils";
+import { BPMN_ELEMENTS } from "../constants.js";
+import { CalculateMetricFn, getGatewaysInDiagram } from "../utils.js";
 import xpath from "xpath";
-import Metric from "../Metric-Class";
+import Metric from "../Metric-Class.js";
 const GM: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     const gatewaysOfDiagram = getGatewaysInDiagram(xmlDoc);
     const xor_gateways = gatewaysOfDiagram.filter(

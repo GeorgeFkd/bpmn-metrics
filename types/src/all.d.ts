@@ -15,47 +15,6 @@ import DENSITY from "./metrics/DENSITY.js";
 import CNC from "./metrics/CNC.js";
 import NMF from "./metrics/NMF.js";
 import NSFE from "./metrics/NSFE.js";
-// import { readdirSync } from "fs";
-// // const fs = window.require("fs");
-// console.log("not messed up yet");
-// const allfiles = readdirSync("../metrics");
-// console.log(allfiles);
-
-export {
-    AGD,
-    CFC,
-    CLA,
-    GH,
-    GM,
-    MGD,
-    NOA,
-    NOAJS,
-    NSFA,
-    NSFG,
-    TNG,
-    TS,
-    DENSITY,
-    CNC,
-    NMF,
-    NSFE,
-};
-
-//edw tha mporousa na kanw thn Metric class me -> result,label,calculateFN kai na ekana export ta objects
-export default [
-    AGD,
-    CFC,
-    CLA,
-    GH,
-    MGD,
-    NOA,
-    NOAJS,
-    NSFA,
-    NSFG,
-    TNG,
-    TS,
-    GM,
-    DENSITY,
-    CNC,
-    NMF,
-    NSFE,
-];
+export { AGD, CFC, CLA, GH, GM, MGD, NOA, NOAJS, NSFA, NSFG, TNG, TS, DENSITY, CNC, NMF, NSFE, };
+declare const _default: Metric[];
+export default _default;

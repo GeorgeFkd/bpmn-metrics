@@ -1,5 +1,5 @@
-import AGD from "../../src/metrics/AGD";
-import { xmlStr, expectedAGD } from "../samples/sample-188";
+import AGD from "../../src/metrics/AGD.js";
+import { xmlStr, expectedAGD } from "../samples/sample-188.js";
 import { DOMParser } from "@xmldom/xmldom";
 describe("should be able to calculate AGD", () => {
     const parsedDocument = new DOMParser().parseFromString(xmlStr, "text/xml");

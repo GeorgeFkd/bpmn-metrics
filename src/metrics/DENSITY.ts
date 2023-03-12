@@ -1,8 +1,8 @@
-import { CalculateMetricFn, getEventsInDiagram } from "../utils";
+import { CalculateMetricFn, getEventsInDiagram } from "../utils.js";
 import xpath from "xpath";
-import Metric from "../Metric-Class";
-import NOA from "./NOA";
-import TNG from "./TNG";
+import Metric from "../Metric-Class.js";
+import NOA from "./NOA.js";
+import TNG from "./TNG.js";
 const DENSITY: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     if (!xmlDoc) return -1;
     const events = getEventsInDiagram(xmlDoc).length;

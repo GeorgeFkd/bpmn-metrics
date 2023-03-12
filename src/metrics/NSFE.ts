@@ -1,9 +1,9 @@
-import Metric from "../Metric-Class";
+import Metric from "../Metric-Class.js";
 import {
     CalculateMetricFn,
     getEventsInDiagram,
     getOutgoingFlowsOfNode,
-} from "../utils";
+} from "../utils.js";
 
 const NSFE: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     //vriskw ta events kai meta ta incoming/outgoing

@@ -2,9 +2,9 @@ import {
     CalculateMetricFn,
     findSplitNodesOfGate,
     getBranchesOfGateNode,
-} from "../utils";
-import { BPMN_ELEMENTS } from "../constants";
-import Metric from "../Metric-Class";
+} from "../utils.js";
+import { BPMN_ELEMENTS } from "../constants.js";
+import Metric from "../Metric-Class.js";
 const CFC: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     const xorSplitNodes = findSplitNodesOfGate(xmlDoc, BPMN_ELEMENTS.XOR);
     const orSplitNodes = findSplitNodesOfGate(xmlDoc, BPMN_ELEMENTS.OR);

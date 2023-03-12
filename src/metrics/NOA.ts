@@ -1,6 +1,5 @@
-import Metric from "../Metric-Class";
-import { CalculateMetricFn } from "../utils";
-import { countStructuralElements as analyzeXMLString } from "../utils";
+import Metric from "../Metric-Class.js";
+import { CalculateMetricFn } from "../utils.js";
 import xpath from "xpath";
 
 const NOA: CalculateMetricFn<Document> = (xmlDoc: Document) => {

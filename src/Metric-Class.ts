@@ -1,4 +1,4 @@
-import { CalculateMetricFn } from "./utils";
+import { CalculateMetricFn } from "./utils.js";
 
 export default class Metric {
     private _result: number;

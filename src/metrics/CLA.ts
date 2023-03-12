@@ -1,7 +1,7 @@
-import { CalculateMetricFn } from "../utils";
-import NOA from "./NOA";
-import NSFA from "./NSFA";
-import Metric from "../Metric-Class";
+import { CalculateMetricFn } from "../utils.js";
+import NOA from "./NOA.js";
+import NSFA from "./NSFA.js";
+import Metric from "../Metric-Class.js";
 const CLA: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     const nsfa = NSFA.calculateFn(xmlDoc);
     if (nsfa === 0) return -1;

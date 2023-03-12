@@ -1,5 +1,5 @@
-import Metric from "../Metric-Class";
-import { CalculateMetricFn, getGatewaysInDiagram } from "../utils";
+import Metric from "../Metric-Class.js";
+import { CalculateMetricFn, getGatewaysInDiagram } from "../utils.js";
 const GH: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     const gatewaysOfDiagram = getGatewaysInDiagram(xmlDoc);
     //? asxoloumaste me olwn twn eidwn ta gateways? h mono or-xor-and?

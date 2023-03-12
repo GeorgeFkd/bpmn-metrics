@@ -1,6 +1,9 @@
-import { CalculateMetricFn, elementNameIsConsideredActivity } from "../utils";
+import {
+    CalculateMetricFn,
+    elementNameIsConsideredActivity,
+} from "../utils.js";
 import xpath from "xpath";
-import Metric from "../Metric-Class";
+import Metric from "../Metric-Class.js";
 const NSFA: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     //! takes too long to calculate
     //the problem with subprocesses -> elementNameIsConsideredActivity helps

@@ -1,6 +1,6 @@
-import { CalculateMetricFn, countStructuralElements } from "../utils";
-import { BPMN_ELEMENTS } from "../constants";
-import Metric from "../Metric-Class";
+import { CalculateMetricFn, countStructuralElements } from "../utils.js";
+import { BPMN_ELEMENTS } from "../constants.js";
+import Metric from "../Metric-Class.js";
 const NMF: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     const structuralElems = countStructuralElements(xmlDoc);
     const messageFlows = structuralElems.get(BPMN_ELEMENTS.MESSAGE_FLOW);

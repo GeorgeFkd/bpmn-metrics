@@ -1,6 +1,5 @@
-import Metric from "../Metric-Class";
-import { countStructuralElements } from "../utils";
-import { CalculateMetricFn } from "../utils";
+import Metric from "../Metric-Class.js";
+import { CalculateMetricFn } from "../utils.js";
 import xpath from "xpath";
 const TNG: CalculateMetricFn<Document> = (xmlDoc: Document) => {
     //!not the best way will remove
