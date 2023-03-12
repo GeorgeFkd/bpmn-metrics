@@ -23,7 +23,6 @@
   "homepage": "https://github.com/GeorgeFkd/bpmn-metrics#readme",
   "dependencies": {
     "@xmldom/xmldom": "^0.8.6",
-    "ts-node": "^10.9.1",
     "xpath": "^0.0.32"
   },
   "type": "module",

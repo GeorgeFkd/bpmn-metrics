@@ -1,0 +1,22 @@
+import { getBranchesOfGateNode } from "../utils.js";
+import { BPMN_ELEMENTS } from "../constants.js";
+import xpath from "xpath";
+import Metric from "../Metric-Class.js";
+const TS = (xmlDoc) => {
+    //! seems correct
+    const and_or_gateways = [BPMN_ELEMENTS.OR, BPMN_ELEMENTS.AND];
+    //const sum = and_xor_gateways.reduce()
+    const sum = and_or_gateways.reduce((total, current) => {
+        //const evaluator = xpath.parse(`//*[local-name()='${current}']`);
+        ///*[local-name()='outgoing']
+        const xpathRes = xpath.select(`.//*[local-name()='${current}']`, xmlDoc);
+        const sumForThisTypeOfGateway = xpathRes.reduce((total, current) => {
+            return total + getBranchesOfGateNode(current) - 1;
+        }, 0);
+        return (total += sumForThisTypeOfGateway);
+    }, 0);
+    return sum;
+};
+const TSObj = new Metric("TS", -1, TS);
+export default TSObj;
+//# sourceMappingURL=TS.js.map
