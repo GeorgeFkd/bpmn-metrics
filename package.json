@@ -1,6 +1,6 @@
 {
   "name": "bpmn-metrics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A nodejs library to calculate metrics of BPMN diagrams",
   "main": "./dist/index.js",
   "scripts": {
