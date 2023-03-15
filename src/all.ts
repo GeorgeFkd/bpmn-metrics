@@ -39,8 +39,6 @@ export {
     NMF,
     NSFE,
 };
-
-//edw tha mporousa na kanw thn Metric class me -> result,label,calculateFN kai na ekana export ta objects
 export default [
     AGD,
     CFC,
