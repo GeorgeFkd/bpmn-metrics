@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "jest",
 		"test-watch": "jest --watchAll",
-		"build": "tsc",
+		"build": "tsc --project tsconfig.build.json",
 		"start": "nodemon index.ts --watch src"
 	},
 	"repository": {

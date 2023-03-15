@@ -20,7 +20,6 @@ import NSFE from "./metrics/NSFE.js";
 // const allfiles = readdirSync("../metrics");
 // console.log(allfiles);
 export { AGD, CFC, CLA, GH, GM, MGD, NOA, NOAJS, NSFA, NSFG, TNG, TS, DENSITY, CNC, NMF, NSFE, };
-//edw tha mporousa na kanw thn Metric class me -> result,label,calculateFN kai na ekana export ta objects
 export default [
     AGD,
     CFC,
