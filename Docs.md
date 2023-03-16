@@ -27,7 +27,7 @@ there are named exports for all metrics for convenience purposes.
 ### Metric Calculations Explained
 BPMN diagrams are represented by xml files. By analysing these files using xpath.js we can calculate the metrics.
 A useful site for testing out ideas fast is [XPather](http://xpather.com/) (makes development significantly faster,thanks to the author). 
-Also sometimes it is useful to utilise other metrics if it makes sense(e.g. NOAJS = NOA + gateways + Events).
+Also sometimes it is useful to utilise other metrics if it makes sense(e.g. NOAJS = NOA + gateways).
 
 ---
 ### Contribute
