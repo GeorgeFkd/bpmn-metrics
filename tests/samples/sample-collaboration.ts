@@ -1,5 +1,19 @@
 export const expectedNSFE = 8;
 export const expectedNMF = 11;
+export const expectedAGD = 3;
+export const expectedCFC = 10;
+export const expectedCLA = 2.22;
+export const expectedGH = 0.41;
+export const expectedGM = 8;
+export const expectedMGD = 3;
+export const expectedNOA = 20;
+export const expectedNOAJS = 26;
+export const expectedNSFA = 9;
+export const expectedNSFG = 11;
+export const expectedTNG = 6;
+export const expectedTS = 0;
+export const expectedDENSITY = 0.02;
+export const expectedCNC = 0.89;
 export const xmlStr = `
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0xwx4fh" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.3.0" camunda:diagramRelationId="34463476-66fe-4bf1-9378-12e41886a225" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.17.0">

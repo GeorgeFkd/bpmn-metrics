@@ -5,8 +5,9 @@
 	"main": "./dist/index.js",
 	"scripts": {
 		"test": "jest",
-		"test-watch": "jest --watchAll",
+		"test-watch": "jest --watch",
 		"build": "tsc --project tsconfig.build.json",
+		"publish-patch": "npm version patch && npm publish && git push origin master",
 		"start": "nodemon index.ts --watch src"
 	},
 	"repository": {

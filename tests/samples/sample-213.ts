@@ -6,11 +6,16 @@ export const expectedNOAJS = 12;
 export const expectedTNG = 4;
 export const expectedCLA = 2;
 export const expectedCFC = 9;
-export const expectedAGD = 3.75;
+export const expectedAGD = 3.25;
 export const expectedMGD = 4;
-export const expectedGH = 0;
+export const expectedGH = 0.51;
 export const expectedGM = 9;
+export const expectedNMF = -1;
+export const expectedDENSITY = 0.05;
+export const expectedNSFE = 4;
+export const expectedCNC = 1.0;
 
+//έχει ένα pool
 export const xmlStr = `
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- origin at X=0.0 Y=0.0 -->
